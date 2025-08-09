@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Interview Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to AI Interview Bot</h1>
+        <p>Your personal AI-powered interview practice platform. Choose your preferred mode and start improving your skills!</p>
+
+        <div class="btn-container">
+            <a href="{{ url_for('mode') }}" class="btn">Start Interview</a>
+            <a href="https://github.com/yourusername/ai-interview-bot" target="_blank" class="btn secondary">View on GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© {{ current_year }} AI Interview Bot | Developed by ❤️ Group 81</p>
+    </footer>
+</body>
+</html>
