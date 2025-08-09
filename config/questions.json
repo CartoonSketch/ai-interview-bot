@@ -1,0 +1,44 @@
+{
+  "easy": [
+    {
+      "question": "Tell me about yourself.",
+      "keywords": ["name", "background", "education", "experience"]
+    },
+    {
+      "question": "Why do you want this job?",
+      "keywords": ["interest", "skills", "passion", "fit"]
+    },
+    {
+      "question": "What are your strengths?",
+      "keywords": ["strengths", "skills", "abilities"]
+    }
+  ],
+  "medium": [
+    {
+      "question": "Describe a challenge you faced and how you overcame it.",
+      "keywords": ["problem", "solution", "result"]
+    },
+    {
+      "question": "Where do you see yourself in five years?",
+      "keywords": ["future", "goal", "career", "growth"]
+    },
+    {
+      "question": "How do you prioritize your work?",
+      "keywords": ["time management", "organization", "priority"]
+    }
+  ],
+  "hard": [
+    {
+      "question": "How would you handle a disagreement with your team leader?",
+      "keywords": ["conflict", "communication", "resolution", "respect"]
+    },
+    {
+      "question": "Explain a technical project you worked on.",
+      "keywords": ["project", "technology", "implementation", "result"]
+    },
+    {
+      "question": "What is your approach to learning new skills?",
+      "keywords": ["learning", "adaptability", "growth", "improvement"]
+    }
+  ]
+    }
