@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Interview Report</h1>
+
+        <div class="report-card">
+            <h2>Candidate Performance</h2>
+            <p><strong>Name:</strong> {{ candidate_name }}</p>
+            <p><strong>Mode:</strong> {{ mode }}</p>
+            <p><strong>Difficulty:</strong> {{ difficulty }}</p>
+            <p><strong>Score:</strong> {{ score }} / {{ total }}</p>
+            <p><strong>Percentage:</strong> {{ percentage }}%</p>
+        </div>
+
+        <div class="feedback-section">
+            <h2>Feedback</h2>
+            <ul>
+                {% for point in feedback %}
+                    <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="button-group">
+            <a href="{{ url_for('index') }}" class="btn">Go to Home</a>
+            <a href="{{ url_for('mode') }}" class="btn">Start New Interview</a>
+        </div>
+    </div>
+</body>
+</html>
