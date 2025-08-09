@@ -1,4 +1,4 @@
-# AI Interview Bot 🎤🤖
+# AI Interview Bot 🤖
 
 An AI-powered interview simulation tool that asks technical and HR questions, evaluates responses, and provides feedback — all through voice or text interaction.
 
@@ -66,7 +66,7 @@ python app.py
 
 The app will be available at http://127.0.0.1:5000/.
 
-### 🛠 Technologies Used
+## 🛠 Technologies Used
 
 Python 3.10+
 
@@ -82,7 +82,7 @@ scikit-learn — Similarity scoring
 
 HTML/CSS/JS — Frontend
 
-### 📜 Example Question Categories
+## 📜 Example Question Categories
 
 HR Questions
 
@@ -97,7 +97,7 @@ Technical Questions
 
 "Explain overfitting in machine learning."
 
-### 📌 Future Enhancements
+## 📌 Future Enhancements
 
 Add camera-based body language analysis.
 
@@ -105,12 +105,12 @@ Add multilingual support.
 
 Store interview results in a database.
 
-### 🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome! Please open an issue first to discuss any major changes.
 
 
-### 📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
