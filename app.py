@@ -15,7 +15,7 @@ REPORTS_DIR = APP_ROOT / "data" / "reports"
 os.makedirs(REPORTS_DIR, exist_ok=True)
 
 app = Flask(__name__, static_folder="static", template_folder="templates")
-app.secret_key = "replace_this_with_a_random_secret_in_production"  # change before publishing!
+app.secret_key = "54261233493bbc5bbf489146dd2909dc"
 
 # ----------------------------
 # Helpers: load questions
