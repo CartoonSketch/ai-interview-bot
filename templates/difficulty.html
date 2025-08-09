@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Difficulty</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Interview Difficulty</h1>
+        <p>Choose the difficulty level of your interview questions.</p>
+
+        <div class="btn-container">
+            <a href="{{ url_for('start_interview', difficulty='easy') }}" class="btn">Easy</a>
+            <a href="{{ url_for('start_interview', difficulty='medium') }}" class="btn secondary">Medium</a>
+            <a href="{{ url_for('start_interview', difficulty='hard') }}" class="btn danger">Hard</a>
+        </div>
+
+        <a href="{{ url_for('mode') }}" class="back-link">⬅ Back to Mode Selection</a>
+    </div>
+
+    <footer>
+        <p>© {{ current_year }} AI Interview Bot</p>
+    </footer>
+</body>
+</html>
