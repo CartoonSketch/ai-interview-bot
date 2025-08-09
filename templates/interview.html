@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Session</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/voice.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Interview Bot</h1>
+        <p id="question-text">{{ question }}</p>
+
+        <div class="btn-container">
+            <button id="start-btn" class="btn">🎤 Start Answering</button>
+            <button id="stop-btn" class="btn danger" disabled>⏹ Stop</button>
+        </div>
+
+        <form method="POST" action="{{ url_for('next_question') }}">
+            <input type="hidden" name="answer" id="answer-input">
+            <button type="submit" class="btn secondary">Next Question ➡</button>
+        </form>
+
+        <div class="progress">
+            Question {{ current_question }} of {{ total_questions }}
+        </div>
+    </div>
+
+    <footer>
+        <p>© {{ current_year }} AI Interview Bot</p>
+    </footer>
+
+    <script>
+        const startBtn = document.getElementById('start-btn');
+        const stopBtn = document.getElementById('stop-btn');
+        const answerInput = document.getElementById('answer-input');
+
+        startBtn.addEventListener('click', () => {
+            startRecording(text => {
+                answerInput.value = text;
+            });
+            startBtn.disabled = true;
+            stopBtn.disabled = false;
+        });
+
+        stopBtn.addEventListener('click', () => {
+            stopRecording();
+            startBtn.disabled = false;
+            stopBtn.disabled = true;
+        });
+    </script>
+</body>
+</html>
