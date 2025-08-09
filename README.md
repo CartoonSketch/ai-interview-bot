@@ -13,14 +13,13 @@ An AI-powered interview simulation tool that asks technical and HR questions, ev
 
 ### 1️⃣ Clone the repository
 
-- git clone https://github.com/your-username/ai-interview-bot.git
-cd ai-interview-bot
+- git clone https://github.com/CartoonSketch987/ai-interview-bot.git
 
 ### 2️⃣ Create and activate virtual environment
 
-python -m venv venv
-source venv/bin/activate   # For Linux/Mac
-venv\Scripts\activate      # For Windows
+- python -m venv venv
+- source venv/bin/activate   # For Linux/Mac
+- venv\Scripts\activate      # For Windows
 
 ### 3️⃣ Install dependencies
 
@@ -30,7 +29,7 @@ venv\Scripts\activate      # For Windows
 
 - python app.py
 
-The app will be available at http://127.0.0.1:5000/.
+- The app will be available at http://127.0.0.1:5000/.
 
 ## 🛠 Technologies Used
 
@@ -82,4 +81,3 @@ This project is licensed under the MIT License.
 
 If you want, I can now prepare the **`questions.json`** so that your bot has an actual question bank ready to go for HR + technical rounds.  
 That way, you can immediately start testing the AI bot.
-
