@@ -13,7 +13,7 @@ An AI-powered interview simulation tool that asks technical and HR questions, ev
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/ai-interview-bot.git
+- git clone https://github.com/your-username/ai-interview-bot.git
 cd ai-interview-bot
 
 ### 2️⃣ Create and activate virtual environment
@@ -24,40 +24,40 @@ venv\Scripts\activate      # For Windows
 
 ### 3️⃣ Install dependencies
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ### ▶️ Run the Application
 
-python app.py
+- python app.py
 
 The app will be available at http://127.0.0.1:5000/.
 
 ## 🛠 Technologies Used
 
-Python 3.10+
+- Python 3.10+
 
-Flask — Web framework
+- Flask — Web framework
 
-SpeechRecognition — Speech-to-Text
+- SpeechRecognition — Speech-to-Text
 
-gTTS — Text-to-Speech
+- gTTS — Text-to-Speech
 
-Transformers + Torch — NLP evaluation
+- Transformers + Torch — NLP evaluation
 
-scikit-learn — Similarity scoring
+- scikit-learn — Similarity scoring
 
-HTML/CSS/JS — Frontend
+- HTML/CSS/JS — Frontend
 
 ## 📜 Example Question Categories
 
-HR Questions
+- HR Questions
 
 "Tell me about yourself."
 
 "Why should we hire you?"
 
 
-Technical Questions
+- Technical Questions
 
 "What is polymorphism in OOP?"
 
@@ -65,11 +65,11 @@ Technical Questions
 
 ## 📌 Future Enhancements
 
-Add camera-based body language analysis.
+- Add camera-based body language analysis.
 
-Add multilingual support.
+- Add multilingual support.
 
-Store interview results in a database.
+- Store interview results in a database.
 
 ## 🤝 Contributing
 
