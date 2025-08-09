@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Interview Mode</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Your Interview Mode</h1>
+        <p>Choose how you want to interact with the AI Interview Bot.</p>
+
+        <div class="btn-container">
+            <a href="{{ url_for('text_interview') }}" class="btn">Text Mode</a>
+            <a href="{{ url_for('voice_interview') }}" class="btn secondary">Voice Mode</a>
+        </div>
+
+        <a href="{{ url_for('index') }}" class="back-link">⬅ Back to Home</a>
+    </div>
+
+    <footer>
+        <p>© {{ current_year }} AI Interview Bot</p>
+    </footer>
+</body>
+</html>
