@@ -69,5 +69,3 @@ Pull requests are welcome! Please open an issue first to discuss any major chang
 
 This project is licensed under the MIT License.
 
-If you want, I can now prepare the **`questions.json`** so that your bot has an actual question bank ready to go for HR + technical rounds.  
-That way, you can immediately start testing the AI bot.
