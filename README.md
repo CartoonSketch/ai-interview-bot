@@ -50,17 +50,7 @@ An AI-powered interview simulation tool that asks technical and HR questions, ev
 ## 📜 Example Question Categories
 
 - HR Questions
-
-"Tell me about yourself."
-
-"Why should we hire you?"
-
-
 - Technical Questions
-
-"What is polymorphism in OOP?"
-
-"Explain overfitting in machine learning."
 
 ## 📌 Future Enhancements
 
