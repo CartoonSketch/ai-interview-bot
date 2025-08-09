@@ -9,40 +9,6 @@ An AI-powered interview simulation tool that asks technical and HR questions, ev
 - **Speech Output** — Bot speaks questions using Google Text-to-Speech (gTTS).
 - **Web Interface** — Built with Flask for easy access in the browser.
 
-## 📂 Project Structure
-
-ai-interview-bot/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── config/
-│   ├── questions.json
-│   └── settings.py
-│
-├── static/
-│   ├── css/style.css
-│   ├── js/voice.js
-│   └── images/
-│
-├── templates/
-│   ├── index.html
-│   ├── mode.html
-│   ├── difficulty.html
-│   ├── interview.html
-│   └── report.html
-│
-├── utils/
-│   ├── nlp_utils.py
-│   ├── speech_utils.py
-│   ├── feedback_utils.py
-│   └── question_loader.py
-│
-├── tests/                    
-├── data/
-    └── sample_answers.json    
-
 ## 🚀 Installation
 
 ### 1️⃣ Clone the repository
